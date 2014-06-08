@@ -15,13 +15,14 @@ for (i=0;i<text.length;i++)
                 //console.log(myNameSplit)
                 }
             }
-            if (_.isEqual(hits,myNameSplit)===true)
-                {
-                    console.log(hits)
-                    namePresent=1;
-                    break;
-                }
+    if (_.isEqual(hits,myNameSplit)===true)
+        {
+            console.log(hits)
+            namePresent=1;
+            break;
+        }
     }
-if (namePresent===0) {
+if (namePresent===0) 
+    {
     console.log("Name was not found.")
-}
+    }        
